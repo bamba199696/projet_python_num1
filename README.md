@@ -8,7 +8,7 @@ fonctions permettant de dessiner des figures en utilisant à la base le module d
 Tableau de flux:
 
 
-Modules               Fournit(entrée)             Recoit(sortie)
+Modules                Fournit(entrées)             Recoit(sorties)
 1-turtle_Maison.py       Caree()                 Modèle de maison 🏡 
                         Triangle()
                         Finition()
