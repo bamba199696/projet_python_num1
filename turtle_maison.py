@@ -1,3 +1,5 @@
+#importation de la bibliothèque turtle 
+
 import turtle
 
 '''
@@ -9,12 +11,12 @@ def carre():
     '''
     
     turtle.title("la maison de khadim mbacke ndiaye")
-    turtle.pensize(3)
-    turtle.bgcolor("light grey")
+    turtle.pensize(3)# parametrage de la taille du crayon
+    turtle.bgcolor("light grey") #coloration du background en Gris clair
     
-    for i in range (6):
-        turtle.forward(200)
-        turtle.right(90)
+    for i in range (6):#permettre au curseur de faire 6 tours de carre
+        turtle.forward(200)#avancer le curseur de 200 px
+        turtle.right(90) # virage à droite de 90 degré 
     x=0 
     while(x<2):
         turtle.forward(150)
@@ -56,7 +58,7 @@ def fenetre():
     '''Fonction permettant de construire la fenetre de la maison'''
     x=0
     while(x<3):
-        turtle.fd(20)
+        turtle.fd(20)# fd signifie aussi forward
         turtle.right(90)
         x=x+1
     for i in range(1):
@@ -85,7 +87,7 @@ def deplacer_sans_tracer(x, y = None):
         turtle.goto(x, y)
         turtle.down()
 
-def finition1():
+def finition1():# permet de mettre le marche pied de la maison en couleur noir foncé
     turtle.left(90)
     turtle.pensize(15)
     turtle.bk(26)
