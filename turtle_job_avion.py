@@ -13,8 +13,8 @@ def avion():
     turtle.pensize(5)
     turtle.fillcolor('black')
     turtle.begin_fill()
-    turtle.right(200) #◘inclinaison base queu
-    turtle.forward(30) #longueur base queu
+    turtle.right(200) #◘inclinaison base queue
+    turtle.forward(30) #longueur base queue
     turtle.right(95)   #premier diadeu
     turtle.forward(15) #longueur premier diadeu
     turtle.right(70)   #deuxieme diadeu
@@ -46,7 +46,7 @@ def avion():
     turtle.right(70)   #deuxieme diadeu
     turtle.forward(20) #longueur deuxième diadeu
     turtle.right(93) #◘inclinaison base queu
-    turtle.forward(90) #longueur base queu
+    turtle.forward(90) #longueur base queue
     turtle.end_fill()   
     turtle.showturtle()
     turtle.exitonclick()
