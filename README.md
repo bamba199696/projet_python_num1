@@ -5,6 +5,25 @@ Dessins:maison,avion,fusée,drapeau du Sénégal
 L'objectif de ce projet consiste à concevoir un logiciel de dessin 2D avec des figures géométriques
 simple. Il s’agira de construire une bibliothèque de fonction qui va implémenter un certain nombre de 
 fonctions permettant de dessiner des figures en utilisant à la base le module de dessin turtle de python
+Tableau de flux:
+DessinMSDA.py     Fournit(entrée)           Recoit(sortie)
+1-Maison.py        Carre()                     Modèle de maison 🏡 
+                  Triangle()
+                  Finition()
+                  Fenetre()
+
+2-drapeau.py          —-                       Drapeau Sénégal 🇸🇳 
+
+3-turtle_avion.py     
+
+
+
+
+
+
+
+
+
 
 Méthodes: Usages de structures itératives
 Besoins:bibliothèque turtle pour tracer les figures géométriques (carré ,rectangle,triangle,cercle etc)
