@@ -18,8 +18,8 @@ Modules                Fournit(entrées)             Recoit(sorties)
 
 3-turtle_job_avion.py     Avion()                  Modèle avion ✈️ 
 
-4-turtle_job_fusee.py     Fusée ()                 Modèle de fusée 🚀 
-                     
+4-turtle_job_fusee.py     Triangle(),rectangle ()      Modèle de fusée 🚀 
+                           Carree(),cercle()
 DessinMSDA.py            Carre(),triangle ()
  (Modules principal)       Cercle(),demi-cercle()
                          Rectangle(),trapèze ()
