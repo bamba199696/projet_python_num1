@@ -8,8 +8,8 @@ fonctions permettant de dessiner des figures en utilisant à la base le module d
 Tableau de flux:
 
 
-DessinMSDA.           Fournit(entrée)             Recoit(sortie)
-1turtle_Maison.py       Caree()                 Modèle de maison 🏡 
+Modules               Fournit(entrée)             Recoit(sortie)
+1-turtle_Maison.py       Caree()                 Modèle de maison 🏡 
                         Triangle()
                         Finition()
                         Fenetre()
@@ -21,7 +21,7 @@ DessinMSDA.           Fournit(entrée)             Recoit(sortie)
 4-turtle_job_fusee.py     Fusée ()                 Modèle de fusée 🚀 
                      
 DessinMSDA.py            Carre(),triangle ()
-                         Cercle(),demi-cercle()
+ (Modules principal)       Cercle(),demi-cercle()
                          Rectangle(),trapèze ()
                          Losange(),elipse()                            
                          Polygone parametrable()      Module principal 
