@@ -54,7 +54,7 @@ def triangle():
         turtle.forward(95)
         turtle.right(90)
        
-def fenetre():
+def fenetre():#le fenetre est composé de 4 carrés 
     '''Fonction permettant de construire la fenetre de la maison'''
     x=0
     while(x<3):
@@ -71,7 +71,7 @@ def fenetre():
          turtle.fd(20)
          turtle.right(90)
          turtle.fd(40)
-         turtle.bk(20)
+         turtle.bk(20)#bk signifie aussi backward
          turtle.right(90)
          turtle.fd(20)
          
@@ -108,7 +108,5 @@ deplacer_sans_tracer(170, -198)
 finition1()
 deplacer_sans_tracer(0,-200)
 finition2()
-turtle.exitonclick()
-         
 carre()
 turtle.exitonclick()
