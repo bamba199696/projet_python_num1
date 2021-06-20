@@ -8,16 +8,16 @@ fonctions permettant de dessiner des figures en utilisant à la base le module d
 Tableau de flux:
 
 
-Modules                Fournit(entrées)             Recoit(sorties)
-1-turtle_Maison.py       Caree()                 Modèle de maison 🏡 
+Modules                Fournit(entrées)               Recoit(sorties)
+1-turtle_Maison.py       Caree()                       Modèle de maison 🏡 
                         Triangle()
                         Finition()#droite fonce 
                         Fenetre()#4 carree()
 
-2-drapeau.py             —-                       Drapeau Sénégal 🇸🇳 
+2-drapeau.py                —-                            Drapeau Sénégal 🇸🇳 
 
-3-turtle_job_avion.py     Avion()                  Modèle avion ✈️ 
-
+3-turtle_job_avion.py     Avion()                      Modèle avion ✈️ 
+ 
 4-turtle_job_fusee.py     Triangle(),rectangle ()      Modèle de fusée 🚀 
                            Carree(),cercle()
 
@@ -26,9 +26,10 @@ DessinMSDA.py            Carre(),triangle ()
  (Modules principal)       Cercle(),demi-cercle()
                          Rectangle(),trapèze ()
                          Losange(),elipse()                            
-                         Polygone parametrable()      Module principal 
-                         
-
+                         Polygone(),carre_g()            Module principal 
+                         Rectangle_g(),rectangle_d()
+                         Triangle_equilateral()
+                         Trapeze(),losange(),ellipse 
 
 Membres du groupe:
 @Khadim Mbacke Ndiaye 
