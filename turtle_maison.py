@@ -4,7 +4,9 @@ import turtle
 Ce programme permet de dessiner une maison
 '''
 def carre():
-    '''ce module nous permet de contructruire la base de la maison'''
+    '''ce module nous permet de contructruire la base de la maison
+        @khadim mbacke ndiaye
+    '''
     
     turtle.title("la maison de khadim mbacke ndiaye")
     turtle.pensize(3)
