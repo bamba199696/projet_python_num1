@@ -10,6 +10,7 @@ t.speed("normal")
 #dessin de la 1iere partie du rectangle en vert
 t.fillcolor("green")
 t.begin_fill()
+t.backward(200)
 t.forward(200)
 t.left(90)
 t.up()

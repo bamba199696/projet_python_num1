@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import tkinter
 import turtle
+import dessinMSDA as dessin 
 """
 Created on Thu Jun 17 22:39:12 2021
 
@@ -12,11 +13,7 @@ def fusee():
     turtle.pensize(3)
     
     #rectangle debout
-    for i in range(2):
-        turtle.forward(15)
-        turtle.left(90)
-        turtle.forward(45)
-        turtle.left(90)
+    dessin.rectangle_g(45,15)
         
     turtle.up()
     turtle.forward(15)
@@ -47,21 +44,22 @@ def fusee():
     turtle.forward(45)
     turtle.down()
     #petit carré sur le rectangle
-    for i in range(3):
-        turtle.forward(15)
-        turtle.right(90)
+   
+    dessin.carre(15,3)#
     
     #décalage et traçage du premier petit cercle    
     turtle.right(180)
     turtle.up()
     turtle.forward(15)
     turtle.down()
-    turtle.circle(5)
+    
+    dessin.cercle(5)#
+    
     turtle.up()
     turtle.backward(30)
     turtle.left(180)
     turtle.down()
-    #retour et traçage du secon demie cercle
+    #retour et traçage du second petit cercle                                   
     turtle.up()
     #turtle.forward(1)
     turtle.right(90)
@@ -69,7 +67,8 @@ def fusee():
     turtle.left(90)
     turtle.forward(15)
     turtle.down()
-    turtle.circle(5)
+    
+    dessin.cercle(5)#
     
     #placement au sommet gauche du carré
     turtle.up()
@@ -78,16 +77,19 @@ def fusee():
     turtle.forward(5)
     turtle.down()
     
-    #rectangle au dessus de petit carré
+    #positionnement et traçage du rectangle au dessus de petit carré
     turtle.up()
     turtle.left(90)
     turtle.forward(30)
     turtle.down()
+    
     for i in range(2):
         turtle.right(90)
         turtle.forward(25)
         turtle.right(90)
         turtle.forward(75)
+        
+    #dessin.rectangle_d(90,25)
     
     #carré au dessus du rectangle
     turtle.up()
@@ -97,9 +99,8 @@ def fusee():
     turtle.forward(25)
     turtle.left(90)
     turtle.down()
-    for i in range(3):
-        turtle.forward(25)
-        turtle.right(90)
+        
+    dessin.carre(25,3)
     
     #deplacement et premier cercle    
     turtle.right(90)
@@ -108,7 +109,8 @@ def fusee():
     turtle.up()
     turtle.forward(20)
     turtle.down()
-    turtle.circle(7)
+    
+    dessin.cercle(7)
     
     #deplacement et second cercle
     turtle.up()
@@ -118,7 +120,8 @@ def fusee():
     turtle.left(90)
     turtle.forward(15)
     turtle.down()
-    turtle.circle(7)
+    
+    dessin.cercle(7)
     
     #deplacement au sommet gauche du carré
     turtle.up()
@@ -129,23 +132,21 @@ def fusee():
     turtle.forward(30)
     turtle.down()
     #traçage du rectangle
-    for i in range(2):
-        turtle.right(90)
-        turtle.forward(15)
-        turtle.right(90)
-        turtle.forward(85)
+    
+        turtle.forward(85)"""
+        
+    dessin.rectangle_d(85,15)
     
     #deux peits carrés
-    for i in range(3):
-        turtle.forward(15)
-        turtle.right(90)
+    
+    dessin.carre(15,3)
+        
     turtle.left(90)
     turtle.up()
     turtle.forward(85)
     turtle.down()
-    for i in range(3):
-        turtle.forward(15)
-        turtle.right(90)
+    
+    dessin.carre(15,3)
         
     turtle.up()
     turtle.right(180)
@@ -192,9 +193,8 @@ def fusee():
     turtle.backward(20)
     turtle.left(90)
     turtle.down()
-    for i in range(3):
-        turtle.forward(45)
-        turtle.left(90)
+    
+    dessin.carre_g(45,3)
     
     turtle.up()
     turtle.backward(20)
@@ -212,17 +212,15 @@ def fusee():
     turtle.right(-66)
     turtle.down()
     turtle.forward(15)
-    #turtle.left(60)
-    for i in range(3):
-        turtle.left(120)
-        turtle.forward(75)
+    
+    dessin.triangle_equiliterale(75)
+        
     turtle.up()
     turtle.backward(20)
     turtle.left(90)
     turtle.down()
-    for i in range(3):
-        turtle.forward(35)
-        turtle.left(90)
+    
+    dessin.carre_g(35,3)
     #\turtle.showturtle()
     turtle.exitonclick()
 
