@@ -14,8 +14,10 @@ DessinMSDA.py     Fournit(entrée)           Recoit(sortie)
 
 2-drapeau.py          —-                       Drapeau Sénégal 🇸🇳 
 
-3-turtle_avion.py     
+3-turtle_avion.py   Avion()                    Modèle avion ✈️ 
 
+4-turtle_fusee.py    Fusée ()
+                     
 
 
 
