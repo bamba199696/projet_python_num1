@@ -11,8 +11,8 @@ Tableau de flux:
 Modules                Fournit(entrées)             Recoit(sorties)
 1-turtle_Maison.py       Caree()                 Modèle de maison 🏡 
                         Triangle()
-                        Finition()
-                        Fenetre()
+                        Finition()#droite fonce 
+                        Fenetre()#4 carree()
 
 2-drapeau.py             —-                       Drapeau Sénégal 🇸🇳 
 
@@ -20,6 +20,8 @@ Modules                Fournit(entrées)             Recoit(sorties)
 
 4-turtle_job_fusee.py     Triangle(),rectangle ()      Modèle de fusée 🚀 
                            Carree(),cercle()
+
+
 DessinMSDA.py            Carre(),triangle ()
  (Modules principal)       Cercle(),demi-cercle()
                          Rectangle(),trapèze ()
